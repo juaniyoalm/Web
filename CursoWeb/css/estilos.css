@@ -1,0 +1,127 @@
+
+body {
+    background-image: url("../img/sativa.png");
+}
+
+.jumbotron {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.panel-heading {
+    background-color: deepskyblue !important;
+    color: white !important;
+}
+
+.panel-body {
+    color: #2B2B2B !important;
+}
+
+.navbar {
+    background-color: #2B2B2B;
+}
+
+.navbar-brand:link, .navbar-brand:visited {
+    color: deepskyblue !important;
+}
+.navbar-brand:hover, .navbar-brand:active {
+    color: white !important;
+}
+
+#navbar li a:link, #navbar li a:visited {
+    color: white !important;
+}
+
+#navbar li a:hover, #navbar li a:active {
+    color: deepskyblue !important;
+}
+
+.dropdown-menu {
+    background-color: #2B2B2B;
+}
+
+.open > a {
+    background-color: #2B2B2B !important;
+}
+
+.btn-primary {
+    background-color: deepskyblue !important;
+    border: none;
+}
+
+.btn-primary::hover {
+    background-color: #2B2B2B !important;
+}
+
+.contenido-articulo {
+    background-color: white;
+    padding: 2em;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.sidebar, gg-elemento {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.gg-elemento {
+  color: white
+}
+
+.gg-elemento:hover {
+  color: deepskyblue !important;
+  background-color: #2B2B2B !important;
+}
+
+#gg-entradas {
+  background-color: deepskyblue;
+}
+
+#gg-comentarios {
+  background-color: #029AC4;
+}
+
+#gg-favoritos {
+  background-color: #394A66;
+}
+
+.parte-gestor-entradas {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #029AC4;
+}
+
+.table-striped>tbody>tr>td, .table>thead>tr>th {
+  border: none;
+}
+
+tbody::before {
+  content: "-";
+  display: block;
+  line-height: 1em;
+  color: transparent;
+}
+
+#boton-nueva-entrada {
+  background-color: #029AC4 !important;
+}
+
+#boton-nueva-entrada:hover {
+  background-color: #2B2B2B !important;
+}
+
+.form-nueva-entrada {
+  background-color: white;
+  padding: 2em;
+}
+
+
+@@media query {
+
+}
